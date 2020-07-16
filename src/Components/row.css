@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* </style> */
+.row {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-weight: bold;
+}
+
+/* .play {
+  display: none;
+} */
+
+.row-title {
+  color: #fff;
+  margin: 50px 0px 20px 50px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.movie-name {
+  color: #fff;
+  align-self: flex-end;
+}
+.poster {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.poster img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 120px;
+  margin-left: 20px;
+  transition: all 400ms;
+}
+.poster::-webkit-scrollbar {
+  display: none;
+}
+.poster.largeposter img {
+  max-height: 300px;
+}
+.poster img:hover {
+  transform: scale(1.1);
+}
+
+.play .btn1 {
+  width: 80px;
+  position: relative;
+  top: 90%;
+  left: -190px;
+}
+.poster button {
+  border: 1px solid #fff;
+  transition: 200ms;
+  height: 20px;
+  background-color: transparent;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  padding: 3% 4%;
+  color: #fff;
+}
+.poster button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.poster.largeposter .btn2 {
+  width: 100px;
+  position: relative;
+  top: 83%;
+  left: -100px;
+}
+.poster .btn2 {
+  width: 100px;
+  position: relative;
+  top: 73%;
+  left: -100px;
+}

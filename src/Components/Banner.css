@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+.title {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.banner {
+  height: 80vh;
+  width: 100vw;
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+}
+.banner-content {
+  align-self: center;
+  padding: 2%;
+  margin: 0px 0 22px 40px;
+}
+p.banner-overview {
+  text-align: left;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  width: 600px;
+  height: auto;
+  line-height: 1.5;
+}
+.button-div {
+  margin-top: 25px;
+}
+.banner-button {
+  width: 160px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  margin-right: 25px;
+  transition: 200ms ease-in;
+}
+.banner-button:hover,
+.sm-banner-button:hover {
+  background: #fff;
+  color: #333;
+}
+.sm-banner-content {
+  align-self: flex-end;
+  width: 100%;
+  padding: 5%;
+  margin: 20px 0px;
+}
+.sm-banner-overview {
+  text-align: left;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  width: 300px;
+  margin-left: 20px;
+  height: 100px;
+  overflow: hidden;
+
+  line-height: 1.5;
+}
+.sm-banner-button {
+  width: 80%;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px;
+
+  margin: 10px 0 20px 20px;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  transition: 200ms ease-in;
+}
+
+.sm-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}

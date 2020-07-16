@@ -1,0 +1,31 @@
+.nav img {
+  height: 36px;
+  width: 120px;
+  cursor: pointer;
+  transform: scaleX(0.75);
+  margin-left: 20px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.nav {
+  transition: 500ms all;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0em;
+  height: 60px;
+  left: 0em;
+  transition-timing-function: ease-in;
+  z-index: 163;
+  width: 100%;
+}
+.navbar {
+  background-color: transparent;
+}
+.sticky {
+  background-color: #000;
+}
+.nav .user-icon {
+  width: 60px;
+  margin-right: 20px;
+}

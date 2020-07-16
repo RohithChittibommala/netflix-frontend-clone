@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  justify-content: center;
+  height: 100vh;
+  max-height: 100%;
+  background: rgb(61, 60, 60);
+  display: flex;
+  padding: 2%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body {
+  background: rgb(61, 60, 60);
+}
+.card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  background-color: #3f4441;
+  transition: 500ms;
+  height: 500px;
+  cursor: pointer;
+}
+.card .movieposter {
+  width: 100%;
+}
+.details {
+  display: flex;
+  padding: 3% 4%;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.movieposter img {
+  object-fit: contain;
+
+  width: 320px;
+}
+
+.details h1 {
+  margin: 15px 0px;
+  font-size: 1.6rem;
+  text-align: left;
+}
+.details p {
+  margin-top: 12px;
+  font-size: 20px;
+}
+.details button {
+  width: 120px;
+  height: 40px;
+  margin-top: 15px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid rgb(218, 83, 83);
+  color: #fff;
+  cursor: pointer;
+  transition: 200ms ease;
+  outline: none;
+}
+.details button:hover {
+  background-color: rgb(218, 83, 83);
+  transform: scale(1.05);
+}
+.card:hover {
+  transform: scale(1.08);
+}
+.body {
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+}
+.goBack {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  position: fixed;
+  color: #fff;
+  border: none;
+  background-color: rgb(218, 83, 83);
+  outline: none;
+  left: 50%;
+  cursor: pointer;
+  bottom: 10px;
+  margin-bottom: 10px;
+}
